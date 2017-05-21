@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leal.lesloustics.Addition.Add_ErrActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oh non..."
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"/>
+    <TextView android:id="@+id/nbErr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="Corriger"
+        android:onClick="corriger"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        android:text="Changer de niveau"
+        android:onClick="changer"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:text="Retour au menu"
+        android:onClick="retour"/>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leal.lesloustics.Quizz.Quizz_1Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choisis ton thème !"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"/>
+    <Button android:id="@+id/niv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Sciences de la Vie et de la Terre"
+        android:layout_marginTop="150dp"
+        android:onClick="svt"/>
+    <Button android:id="@+id/niv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Français"
+        android:layout_marginTop="220dp"
+        android:onClick="français"/>
+    <Button android:id="@+id/niv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Histoire"
+        android:layout_marginTop="290dp"
+        android:onClick="histoire"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Retour menu"
+        android:onClick="retour"/>
+
+</RelativeLayout>

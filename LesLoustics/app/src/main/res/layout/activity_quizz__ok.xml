@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leal.lesloustics.Quizz.Quizz_OkActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Félicitations !"
+        android:textSize="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bravo ! Tu n'as pas fait d'erreurs !"
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Changer de niveau"
+        android:layout_marginTop="190dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="changer"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour au menu"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="retour"/>
+
+</RelativeLayout>

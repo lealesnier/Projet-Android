@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leal.lesloustics.Addition.Add_1Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choisis ton niveau !"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"/>
+    <Button android:id="@+id/niv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Niveau 1"
+        android:layout_marginTop="150dp"
+        android:onClick="niveau1"/>
+    <Button android:id="@+id/niv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Niveau 2"
+        android:layout_marginTop="220dp"
+        android:onClick="niveau2"/>
+    <Button android:id="@+id/niv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Niveau 3"
+        android:layout_marginTop="290dp"
+        android:onClick="niveau3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Retour menu"
+        android:onClick="retour"/>
+
+
+</RelativeLayout>

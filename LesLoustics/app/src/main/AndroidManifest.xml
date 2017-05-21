@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.leal.lesloustics">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- SUGARORM -->
+            <meta-data
+                android:name="DATABASE"
+                android:value="sugar_Projet.db" />
+            <meta-data
+                android:name="VERSION"
+                android:value="3" />
+            <meta-data
+                android:name="QUERY_LOG"
+                android:value="true" />
+            <meta-data
+                android:name="DOMAIN_PACKAGE_NAME"
+                android:value="com.example.julien.projet_android" />
+
+        </activity>
+        <activity android:name=".Multiplication.Multi_1Activity" />
+        <activity android:name=".Multiplication.Multi_2Activity" />
+        <activity android:name=".Multiplication.Multi_ErrActivity" />
+        <activity android:name=".Multiplication.Multi_OkActivity" />
+        <activity android:name=".Addition.Add_1Activity" />
+        <activity android:name=".Addition.Add_2Activity" />
+        <activity android:name=".Addition.Add_ErrActivity" />
+        <activity android:name=".Addition.Add_OkActivity" />
+        <activity android:name=".Menu.MenuActivity" />
+        <activity android:name=".Quizz.Quizz_1Activity" />
+        <activity android:name=".Quizz.Quizz_2Activity" />
+        <activity android:name=".Quizz.Quizz_ErrActivity" />
+        <activity android:name=".Quizz.Quizz_OkActivity" />
+        <activity android:name=".Quizz.Quizz_22Activity" />
+        <activity android:name=".InscriptionActivity" />
+        <activity android:name=".Menu.MenuAnonymeActivity"></activity>
+    </application>
+
+</manifest>

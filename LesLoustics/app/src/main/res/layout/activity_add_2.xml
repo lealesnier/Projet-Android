@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leal.lesloustics.Addition.Add_2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A toi de jouer !!"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"/>
+
+    <TextView android:id="@+id/op1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"/>
+    <EditText android:id="@+id/res1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"
+        android:inputType="number"/>
+
+    <TextView android:id="@+id/op2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="70dp"/>
+    <EditText android:id="@+id/res2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"
+        android:inputType="number"/>
+
+    <TextView android:id="@+id/op3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="70dp"/>
+    <EditText android:id="@+id/res3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"
+        android:inputType="number"/>
+
+    <TextView android:id="@+id/op4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="70dp"/>
+    <EditText android:id="@+id/res4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"
+        android:inputType="number"/>
+
+    <TextView android:id="@+id/op5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="70dp"/>
+    <EditText android:id="@+id/res5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:text="Valider"
+        android:onClick="valider"/>
+
+</RelativeLayout>
